@@ -14,3 +14,8 @@ class api():
     def yo(self, username):
         requests.post("http://api.justyo.co/yo/",
                 data={'api_token': self.api_key, 'username': username})
+
+    def subscribers_count(self):
+        r = requests.get("http://api.justyo.co/subscribers_count/",
+                params={'api_token': self.api_key})
+        return r.json()['result']

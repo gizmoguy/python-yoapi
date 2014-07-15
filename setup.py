@@ -17,6 +17,8 @@ setup(
     author_email='brad@gizmoguy.net.nz',
     url='http://github.com/gizmoguy/python-yoapi',
     packages=['yoapi'],
-    install_requires=['requests'],
+    install_requires=[
+        'requests >= 2.0'
+    ],
     license='Apache 2.0',
 )
