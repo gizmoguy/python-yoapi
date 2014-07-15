@@ -8,7 +8,9 @@ class api():
         self.api_key = api_key
 
     def yoall(self):
-        requests.post("http://api.justyo.co/yoall/", data={'api_token': self.api_key})
+        requests.post("http://api.justyo.co/yoall/",
+                data={'api_token': self.api_key})
 
     def yo(self, username):
-        requests.post("http://api.justyo.co/yo/", data={'api_token': self.api_key, 'username': username})
+        requests.post("http://api.justyo.co/yo/",
+                data={'api_token': self.api_key, 'username': username})
