@@ -10,7 +10,7 @@ with open('README.rst') as f:
 
 setup(
     name='yoapi',
-    version='1.1',
+    version='1.2',
     description='Python YoApi.',
     long_description=readme,
     author='Brad Cowie',
