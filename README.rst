@@ -17,3 +17,4 @@ Usage is simple::
 
     yo = yo.api(API_KEY)
     yo.yoall()
+    yo.yo('BRADC')
