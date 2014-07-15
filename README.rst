@@ -18,3 +18,4 @@ Usage is simple::
     yo = yo.api(API_KEY)
     yo.yoall()
     yo.yo('BRADC')
+    print yo.subscribers_count()
